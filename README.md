@@ -7,10 +7,10 @@ software that detects specific persons using your webcam
 ### collector.py
 - scans for faces using haarcascades and saves only the part where the face is
 #### you need to create the folder 'faces' and inside it another folder named like in the config.json
-![alt text](https://i.imgur.com/AjJgH0c.jpg)
+![alt text](https://i.imgur.com/3RItlip.jpg)
 ### train_and_detect.py
 #### If you get a 'NoneType' error from the numpy.asarray function, make sure to delete the .DS_Store as the program sees it as None
 - using the samples provided by collector.py i am using a local binary pattern histogram to detect a specific face
 - after the classification was made, inside the window will be printed a confidence score
-![alt text](https://i.imgur.com/N9mgKVT.jpg)
+![alt text](https://i.imgur.com/C2VbVLy.jpg)
 - it still doesn't provide the most accurate prediction but in the future i might use a cnn as the classifier
