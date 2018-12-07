@@ -1,4 +1,4 @@
-# person-recognition
+# Person recognition using local binary patterns
 software that detects specific persons using your webcam
 ### config.json
 - you can change the name of the person that you will be classifing
